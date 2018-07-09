@@ -1,3 +1,5 @@
+package TestNgExercise;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -19,7 +21,16 @@ public class testNgDemo {
     @Test
     public void Demo5(){
         Assert.assertTrue(5<6);}
+    @Test
+    public void Demo6(){
+        Assert.assertFalse(8<6);}
+    @Test
+    public void Demo7(){
+        Assert.assertNull(null);}
 
+    @Test
+    public void Demo8(){
+        Assert.assertNotNull("Not Null");}
 
 }
 
