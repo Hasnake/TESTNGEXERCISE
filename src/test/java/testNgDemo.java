@@ -1,14 +1,26 @@
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class testNgDemo {
     @Test
-    public void Demo(){
+    public void Demo1(){
         System.out.println("Hello World");
     }
     @Test//
     public void Demo2(){
         System.out.println("Hello Worldin");
     }
+ @Test
+  public void Demo3(){
+             Assert.assertEquals("Test","Test");}
+    @Test
+    public void Demo4(){
+             Assert.assertNotEquals("Test","TEST","If the actual vs Expected are different then it is a pass.");}
+    @Test
+    public void Demo5(){
+        Assert.assertTrue(5<6);}
+
+
 }
 
 /*
@@ -30,4 +42,18 @@ Below is the list of TestNG annotations:
 @Test marks a class or a method as a test method. If used at class level, all the public methods of a class will be considered as a test method.
 @Listeners is defined at class level to specify an array of test listeners classes extending org.testng.ITestNGListener.
 @Parameters is used to pass parameters to a test method. These parameter values are provided in the testng.xml configuration file at runtime.
+*/
+
+
+
+/*
+https://webkul.com/blog/assertion-in-selenium-webdriver/
+A hard assert throw AssertException immediately after a test fails and the test is marked as failed. Perhaps test suite continues with next @Test annotation. A hard assertion can be of following types:
+
+assertEquals
+assertNotEquals
+assertTrue
+assertFalse
+assertNull
+assertNotNull
 */
