@@ -1,0 +1,46 @@
+What is WebDriver?
+------------------
+------------------
+
+WebDriver is a web automation framework that allows you to execute your tests against different browsers,
+not just Firefox (unlike Selenium IDE).
+
+•Google Chrome
+•Mozilla Firefox
+•Internate Explorer
+•Safari
+•Opera Browser
+•GhostDriver
+
+
+
+
+
+WebDriver also enables you to use a programming language in creating your test scripts (not possible in Selenium IDE).
+
+ You can now use conditional operations like if-then-else or switch-case
+ You can also perform looping like do-while.
+
+Following programming languages are supported by WebDriver
+
+Java
+.Net
+PHP
+Python
+Perl
+Ruby
+You do not have to know all of them. You just need to be knowledgeable in one.
+However, in this tutorial, we will be using Java with Eclipse as our IDE.
+
+
+Selenium WebDriver: Access Form, CheckBox, RadioButton & TextBox
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+
+Forms are the fundamental web elements to receive information from the website visitors.
+Web forms have different GUI elements like Text boxes, Password fields, Checkboxes, Radio buttons, dropdowns, file inputs, etc.
+Web Driver provides the following two methods to find the elements.
+
+findElement() – finds a single web element and returns as a WebElement object.
+findElements() – returns a list of WebElement objects matching the locator criteria.
