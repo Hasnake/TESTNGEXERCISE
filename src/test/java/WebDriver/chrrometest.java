@@ -8,7 +8,7 @@ public class chrrometest {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "/Users/hasnake/Driver/chromedriver");
         WebDriver driver = new ChromeDriver();
-        driver.get("http://komonews.com/watch");
+        driver.get("http://komonews.com/news/local");
     }
 }
 

@@ -1,42 +1,109 @@
 What is WebDriver?
 ------------------
 ------------------
+Web Driver:
+1.Allow users to Use different browsers.
+2.Allow users to run tests against different browsers.(•Google Chrome •Mozilla Firefox •Internate Explorer•Safari•Opera Browser•GhostDriver)
+3.WebDriver Cannot Readily Support New Browsers
+4.WebDriver operates on the OS level.
 
-WebDriver is a web automation framework that allows you to execute your tests against different browsers,
+**WebDriver** is a web automation framework that allows you to execute your tests against **different browsers**,
 not just Firefox (unlike Selenium IDE).
 
-•Google Chrome
-•Mozilla Firefox
-•Internate Explorer
-•Safari
-•Opera Browser
-•GhostDriver
+WebDriver also enables you to use a **programming language** in creating your test scripts (not possible in Selenium IDE).
+You can now use conditional operations like if-then-else or switch-case
+You can also perform looping like do-while.
+The following programming languages are supported by WebDriver:Java,.Net,PHP,Python,Perl,Ruby
 
-
-
-
-
-WebDriver also enables you to use a programming language in creating your test scripts (not possible in Selenium IDE).
-
- You can now use conditional operations like if-then-else or switch-case
- You can also perform looping like do-while.
-
-Following programming languages are supported by WebDriver
-
-Java
-.Net
-PHP
-Python
-Perl
-Ruby
 You do not have to know all of them. You just need to be knowledgeable in one.
 However, in this tutorial, we will be using Java with Eclipse as our IDE.
+
+
+Importing Packages
+-------------------
+-------------------
+1.org.openqa.selenium.WebDriver;- contains the WebDriver class needed to instantiate a new browser loaded with a specific driver
+2.org.openqa.selenium.firefox.FirefoxDriver; - contains the FirefoxDriver class needed to instantiate a Firefox-specific driver onto the browser instantiated by the WebDriver class
+3.org.openqa.selenium.chrome.ChromeDriver;
+
+
+Instantiating objects and variables
+-----------------------------------
+-----------------------------------
+
+WebDriver driver =new FirefoxDriver();
+WebDriver driver = new ChromeDriver();
+
+
+
+Launching a Browser Session
+---------------------------
+---------------------------
+WebDriver's get() method is used to launch a new browser session and directs it to the URL that you specify as its parameter.
+driver.get(baseUrl);
+driver.get("http://komonews.com/news/local");
+WebDriver provides these useful get commands:
+get()
+getTitle()
+getPageSource()
+getCurrentUrl()
+getText()
+
+
+
+Terminating a Browser Session
+-----------------------------
+-----------------------------
+The close() and quit() methods are used to close browser windows.
+Close() is used to close a single window;
+while quit() is used to close all windows associated to the parent window that the WebDriver object was controlling.
+driver.close();
+
+
+Locating GUI Elements
+----------------------
+----------------------
+
+Locating elements in WebDriver is done by using the "findElement(By.locator())" method.
+Locating elements in WebDriver is done by using the findElement() method.
+The following are the available options for locating elements in WebDriver:
+By.className
+By.cssSelector
+By.id
+By.linkText
+By.name
+By.partialLinkText
+By.tagName
+By.xpath
+The By.cssSelector() does not support the "contains" feature.
+.findElement(By.className())
+.findElement(By.id())
+
+
+
+Navigate commands
+-----------------
+------------------
+
+WebDriver provides these useful navigation commands
+navigate().forward()
+navigate().back()
+navigate().to()
+navigate().refresh()
+
+
+The switchTo().frame() and switchTo().alert() methods are used to direct WebDriver's focus onto a frame or alert, respectively.
+Implicit waits are used to set the waiting time throughout the program, while explicit waits are used only on specific portions.
+You can use the isEnabled(), isDisplayed(),isSelected(), and a combination of WebDriverWait and ExpectedConditions methods when verifying the state of an element. However, they do not verify if the element exists.
+When isEnabled(), isDisplayed(),or isSelected() was called while the element was not existing, WebDriver will throw a NoSuchElementException.
+When WebDriverWait and ExpectedConditions methods were called while the element was not existing, WebDriver would throw a TimeoutException.
+
+
 
 
 Selenium WebDriver: Access Form, CheckBox, RadioButton & TextBox
 ----------------------------------------------------------------
 ----------------------------------------------------------------
-
 
 Forms are the fundamental web elements to receive information from the website visitors.
 Web forms have different GUI elements like Text boxes, Password fields, Checkboxes, Radio buttons, dropdowns, file inputs, etc.
@@ -44,3 +111,20 @@ Web Driver provides the following two methods to find the elements.
 
 findElement() – finds a single web element and returns as a WebElement object.
 findElements() – returns a list of WebElement objects matching the locator criteria.
+
+
+
+
+
+TestNG: Parameterization using XML & DataProvider in Selenium
+------------------------------------------------------------
+------------------------------------------------------------
+
+•There are two ways by which we can achieve parameterization in TestNG:
+
+1.With the help of Parameters annotation and TestNG XML file.
+@Parameters({"name","searchkey"})
+
+
+2.With the help of DataProvider annotation.
+@DataProvider(name="search provider")

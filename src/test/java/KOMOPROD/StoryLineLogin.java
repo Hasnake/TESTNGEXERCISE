@@ -26,7 +26,6 @@ public class StoryLineLogin {
 
         login.click();
         System.out.println("Login successful");
-       // driver.close();
-
+        driver.close();
     }
 }
