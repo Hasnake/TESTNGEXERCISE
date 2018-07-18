@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2eef139-24dd-48c0-ac0f-b05c602809e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/parameters/ParameterWithTestNGXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/KOMOPROD/popUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/KOMOPROD/switchMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumNotes/FormsAndWebdriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/KOMOPROD/StoryLineLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KOMOPROD/StoryLineLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebDriver/WebDriverNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebDriver/WebDriverNotes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebDriver/chrrometest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebDriver/chrrometest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/KOMOPROD/Form.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/KOMOPROD/StoryLineLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/KOMOPROD/StoryLineLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WebDriver/WebDriverNotes" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebDriver/WebDriverNotes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebDriver/WebDriverNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumNotes/WebDriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WebDriver/WebDriverNotes" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,8 +68,35 @@
       <file leaf-file-name="StoryLineLogin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/KOMOPROD/StoryLineLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebDriver" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumNotes/WebDriver">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="749">
+              <caret line="140" selection-start-line="140" selection-end-line="140" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="switchMethod.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/KOMOPROD/switchMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="52" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="11" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="popUp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/KOMOPROD/popUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebDriverNotes" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/WebDriver/WebDriverNotes">
+      <file leaf-file-name="FormsAndWebdriver" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumNotes/FormsAndWebdriver">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="390">
+              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -102,8 +128,8 @@
       <file leaf-file-name="chrrometest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WebDriver/chrrometest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-end-line="11" />
+            <state relative-caret-position="135">
+              <caret line="10" column="15" selection-start-line="10" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,8 +175,13 @@
         <option value="$PROJECT_DIR$/src/test/java/KOMOPROD/Form.java" />
         <option value="$PROJECT_DIR$/src/test/java/parameters/ParameterWithTestNGXML.java" />
         <option value="$PROJECT_DIR$/src/test/java/WebDriver/chrrometest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/KOMOPROD/StoryLineLogin.java" />
         <option value="$PROJECT_DIR$/src/test/java/WebDriver/WebDriverNotes" />
+        <option value="$PROJECT_DIR$/src/test/java/SeleniumNotes/FormsAndWebdriver" />
+        <option value="$PROJECT_DIR$/src/test/java/KOMOPROD/swithMethod.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SeleniumNotes/WebDriver" />
+        <option value="$PROJECT_DIR$/src/test/java/KOMOPROD/switchMethod.java" />
+        <option value="$PROJECT_DIR$/src/test/java/KOMOPROD/StoryLineLogin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/KOMOPROD/popUp.java" />
       </list>
     </option>
   </component>
@@ -178,8 +209,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,6 +251,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SeleniumNotes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestNgExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestNgExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="TestNgExercise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -233,7 +273,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,6 +287,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="KOMOPROD" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/SeleniumNotes" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -261,20 +303,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.StoryLineLogin">
+  <component name="RunManager" selected="Application.popUp">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="chrrometest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WebDriver.chrrometest" />
+    <configuration name="popUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KOMOPROD.popUp" />
       <module name="TestNgExercise" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WebDriver.*" />
+          <option name="PATTERN" value="KOMOPROD.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,7 +337,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="KomoHome.Test2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="KomoHome" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNgExercise" />
       <extension name="coverage">
         <pattern>
@@ -308,35 +350,6 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="KOMOPROD" />
       <option name="MAIN_CLASS_NAME" value="KOMOPROD.KomoHome" />
-      <option name="METHOD_NAME" value="Test2" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="StoryLineLogin" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNgExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KOMOPROD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="KOMOPROD" />
-      <option name="MAIN_CLASS_NAME" value="KOMOPROD.StoryLineLogin" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -353,7 +366,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="StoryLineLogin.Login (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="KomoHome.Test2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNgExercise" />
       <extension name="coverage">
         <pattern>
@@ -365,66 +378,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="KOMOPROD" />
-      <option name="MAIN_CLASS_NAME" value="KOMOPROD.StoryLineLogin" />
-      <option name="METHOD_NAME" value="Login" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="StoryLineLogin.Login (4)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNgExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KOMOPROD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="KOMOPROD" />
-      <option name="MAIN_CLASS_NAME" value="KOMOPROD.StoryLineLogin" />
-      <option name="METHOD_NAME" value="Login" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="StoryLineLogin.Login" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNgExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KOMOPROD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="KOMOPROD" />
-      <option name="MAIN_CLASS_NAME" value="KOMOPROD.StoryLineLogin" />
-      <option name="METHOD_NAME" value="Login" />
+      <option name="MAIN_CLASS_NAME" value="KOMOPROD.KomoHome" />
+      <option name="METHOD_NAME" value="Test2" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -462,20 +417,107 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="switchMethod" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNgExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KOMOPROD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="KOMOPROD" />
+      <option name="MAIN_CLASS_NAME" value="KOMOPROD.switchMethod" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="swithMethod" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNgExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KOMOPROD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="KOMOPROD" />
+      <option name="MAIN_CLASS_NAME" value="KOMOPROD.swithMethod" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="swithMethod.weather" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNgExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KOMOPROD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="KOMOPROD" />
+      <option name="MAIN_CLASS_NAME" value="KOMOPROD.swithMethod" />
+      <option name="METHOD_NAME" value="weather" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <list>
-      <item itemvalue="TestNG.StoryLineLogin.Login" />
-      <item itemvalue="TestNG.StoryLineLogin.Login (4)" />
-      <item itemvalue="TestNG.StoryLineLogin.Login (2)" />
-      <item itemvalue="Application.chrrometest" />
-      <item itemvalue="TestNG.StoryLineLogin" />
+      <item itemvalue="TestNG.swithMethod" />
+      <item itemvalue="TestNG.swithMethod.weather" />
+      <item itemvalue="TestNG.KomoHome" />
+      <item itemvalue="TestNG.switchMethod" />
+      <item itemvalue="Application.popUp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.StoryLineLogin" />
-        <item itemvalue="Application.chrrometest" />
-        <item itemvalue="TestNG.StoryLineLogin.Login" />
-        <item itemvalue="TestNG.StoryLineLogin.Login (2)" />
-        <item itemvalue="TestNG.StoryLineLogin.Login (4)" />
+        <item itemvalue="Application.popUp" />
+        <item itemvalue="TestNG.switchMethod" />
+        <item itemvalue="TestNG.KomoHome" />
+        <item itemvalue="TestNG.swithMethod.weather" />
+        <item itemvalue="TestNG.swithMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -493,61 +535,61 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testNgDemo - 2018.07.12 at 14h 02m 36s.xml">
-      <configuration name="testNgDemo" configurationId="TestNG" />
+    <history-entry file="swithMethod_weather - 2018.07.17 at 14h 24m 13s.xml">
+      <configuration name="swithMethod.weather" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testNgDemo - 2018.07.16 at 10h 29m 11s.xml">
-      <configuration name="testNgDemo" configurationId="TestNG" />
+    <history-entry file="swithMethod - 2018.07.17 at 14h 26m 00s.xml">
+      <configuration name="swithMethod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StoryLineLogin_Login - 2018.07.16 at 10h 30m 29s.xml">
-      <configuration name="StoryLineLogin.Login" configurationId="TestNG" />
+    <history-entry file="swithMethod - 2018.07.17 at 14h 26m 21s.xml">
+      <configuration name="swithMethod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StoryLineLogin_Login_(1) - 2018.07.16 at 10h 31m 16s.xml">
-      <configuration name="StoryLineLogin.Login (1)" configurationId="TestNG" />
+    <history-entry file="swithMethod - 2018.07.17 at 14h 27m 21s.xml">
+      <configuration name="swithMethod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StoryLineLogin_Login_(3) - 2018.07.16 at 10h 31m 30s.xml">
-      <configuration name="StoryLineLogin.Login (3)" configurationId="TestNG" />
+    <history-entry file="swithMethod - 2018.07.17 at 14h 28m 59s.xml">
+      <configuration name="swithMethod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StoryLineLogin_Login_(4) - 2018.07.17 at 10h 34m 52s.xml">
-      <configuration name="StoryLineLogin.Login (4)" configurationId="TestNG" />
+    <history-entry file="swithMethod_weather - 2018.07.17 at 14h 30m 42s.xml">
+      <configuration name="swithMethod.weather" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StoryLineLogin_Login_(2) - 2018.07.17 at 10h 35m 15s.xml">
-      <configuration name="StoryLineLogin.Login (2)" configurationId="TestNG" />
+    <history-entry file="swithMethod_weather - 2018.07.17 at 14h 32m 19s.xml">
+      <configuration name="swithMethod.weather" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StoryLineLogin_Login - 2018.07.17 at 11h 04m 47s.xml">
-      <configuration name="StoryLineLogin.Login" configurationId="TestNG" />
+    <history-entry file="KomoHome - 2018.07.17 at 14h 34m 15s.xml">
+      <configuration name="KomoHome" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StoryLineLogin - 2018.07.17 at 12h 17m 24s.xml">
-      <configuration name="StoryLineLogin" configurationId="TestNG" />
+    <history-entry file="switchMethod - 2018.07.17 at 14h 41m 05s.xml">
+      <configuration name="switchMethod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StoryLineLogin - 2018.07.17 at 12h 18m 13s.xml">
-      <configuration name="StoryLineLogin" configurationId="TestNG" />
+    <history-entry file="switchMethod - 2018.07.17 at 15h 43m 37s.xml">
+      <configuration name="switchMethod" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="965" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="964" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32603687" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3252595" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.06166056" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25691244" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22720125" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25605536" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22695853" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49302325" visible="true" weight="0.17948718" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49302325" visible="true" weight="0.18131869" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.5069767" side_tool="true" visible="true" weight="0.17948718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
+      <window_info id="Favorites" order="2" sideWeight="0.5069767" side_tool="true" visible="true" weight="0.18131869" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986175" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="3" side_tool="true" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -561,38 +603,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestNgExercise/testNgDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/KOMOPROD/KomoHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebDriver/WebDriverNotes">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumNotes/WebDriver">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
@@ -623,9 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="18" column="30" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,13 +658,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebDriver/WebDriverNotes">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumNotes/WebDriver">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="60" selection-start-line="60" selection-end-line="60" />
@@ -718,13 +723,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebDriver/WebDriverNotes">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumNotes/WebDriver">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="60" selection-start-line="60" selection-end-line="60" />
@@ -800,13 +802,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebDriver/WebDriverNotes">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumNotes/WebDriver">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
@@ -953,16 +952,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/KOMOPROD/KomoHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestNgExercise/testNgDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -979,28 +968,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WebDriver/chrrometest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-end-line="11" />
+        <state relative-caret-position="135">
+          <caret line="10" column="15" selection-start-line="10" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/KOMOPROD/KomoHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumNotes/FormsAndWebdriver">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumNotes/WebDriver">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/KOMOPROD/switchMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="52" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="11" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/KOMOPROD/StoryLineLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebDriver/WebDriverNotes">
+    <entry file="file://$PROJECT_DIR$/src/test/java/KOMOPROD/popUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="165">
+          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

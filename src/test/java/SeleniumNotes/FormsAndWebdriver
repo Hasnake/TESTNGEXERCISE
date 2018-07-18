@@ -1,0 +1,27 @@
+Selenium WebDriver: Access Form, CheckBox, RadioButton & TextBox
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+Forms are the fundamental web elements to receive information from the website visitors.
+Web forms have different GUI elements like Text boxes, Password fields, Checkboxes, Radio buttons, dropdowns, file inputs, etc.
+Web Driver provides the following two methods to find the elements.
+
+findElement() – finds a single web element and returns as a WebElement object.
+findElements() – returns a list of WebElement objects matching the locator criteria.
+
+
+
+
+
+TestNG: Parameterization using XML & DataProvider in Selenium
+------------------------------------------------------------
+------------------------------------------------------------
+
+•There are two ways by which we can achieve parameterization in TestNG:
+
+1.With the help of Parameters annotation and TestNG XML file.
+@Parameters({"name","searchkey"})
+
+
+2.With the help of DataProvider annotation.
+@DataProvider(name="search provider")

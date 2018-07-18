@@ -99,32 +99,42 @@ When isEnabled(), isDisplayed(),or isSelected() was called while the element was
 When WebDriverWait and ExpectedConditions methods were called while the element was not existing, WebDriver would throw a TimeoutException.
 
 
+Web Elements
+-------------
+-------------
+Instead of using the long "driver.findElement(By.locator())" syntax every time you will access a particular element,
+we can instantiate a WebElement object for it. The WebElement class is contained in the "org.openqa.selenium.*" package.
+
+WebElement myElement=driver.findElement(By.id("username"));
+myElement.sendKeys("tutorial")
+
+Clicking is perhaps the most common way of interacting with web elements.
+The click() method is used to simulate the clicking of any element.
+The following example shows how click() was used to click on Mercury Tours'  "Sign-In" button.
+driver.findElement(By.name("login")).click();
 
 
-Selenium WebDriver: Access Form, CheckBox, RadioButton & TextBox
-----------------------------------------------------------------
-----------------------------------------------------------------
+Switching Between Frames
+-----------------------
+-----------------------
+package newproject;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+public class PG4 {
+	  public static void main(String[] args) {
+		  	System.setProperty("webdriver.firefox.marionette","C:\\geckodriver.exe");
+		  	WebDriver driver = new FirefoxDriver();
+	        driver.get("http://demo.guru99.com/selenium/deprecated.html");
+	        driver.switchTo().frame("classFrame");
+	        driver.findElement(By.linkText("Deprecated")).click();
+	        driver.close();
+	    }
+}
 
-Forms are the fundamental web elements to receive information from the website visitors.
-Web forms have different GUI elements like Text boxes, Password fields, Checkboxes, Radio buttons, dropdowns, file inputs, etc.
-Web Driver provides the following two methods to find the elements.
-
-findElement() – finds a single web element and returns as a WebElement object.
-findElements() – returns a list of WebElement objects matching the locator criteria.
-
-
-
-
-
-TestNG: Parameterization using XML & DataProvider in Selenium
-------------------------------------------------------------
-------------------------------------------------------------
-
-•There are two ways by which we can achieve parameterization in TestNG:
-
-1.With the help of Parameters annotation and TestNG XML file.
-@Parameters({"name","searchkey"})
-
-
-2.With the help of DataProvider annotation.
-@DataProvider(name="search provider")
+Waits
+----
+----
+There are two kinds of waits.
+1.Implicit wait - used to set the default waiting time throughout the program//ውስጣዊ
+2.Explicit wait - used to set the waiting time for a particular instance only//ግልጽ
